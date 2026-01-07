@@ -3,6 +3,7 @@ module.exports = {
     aliases:  ['e'],
     type: 'messageCreate',
     code: `
+    $onlyForUsers[nananinanão;$botOwnerID]
     $eval[$message]
     `
 }
