@@ -1,15 +1,11 @@
-# StarryRose
-Um bot brasileiro feito em JavaScript, usando o pacote ForgeScript para a rede social Discord. 
+# Moonelle
+App brasileiro feito para o discord com o objetivo de testes. 
+No momento, não tenho ideias se continuarei com o projeto.
 
-## Objetivos e Ideias para o Projeto.
-- Ser um bot brasileiro.
-    - Tendo a linguagem nos comandos em português do Brasil.
-    - Documentações em português do Brasil.
-- [ ] Sistema de Moderação para servidores.
-- [ ] Sistema de Logs.
-- [ ] Automação para Criação e Modificação para servidores. 
-    - Possibilidades de fazer backup da estrutura do servidor.
-    - Criações de cargos e canais de forma simples e rápida.
-    - Alterações rápidas nas configurações do servidor por meio de um dashboard dentro do Discord.
-- [ ] Sistema de Economia para diversão.
-> Continua sendo analisado todos os objetivos e ideias para o projeto.
+## Características:
+- Sendo um app brasileiro, ele deve ter:
+    - Tendo a linguagem nos comandos em Português do Brasil.
+    - Documentações em Português do Brasil.
+    - Funcionalidades que no momento são importantes para mim, pois ele não é focado ao publico em si, e sim para testes.
+## Objetivos Atuais:
+> No momento, não terá objetivos sobre a criação deste app.

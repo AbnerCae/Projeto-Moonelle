@@ -10,8 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@tryforge/forge.db": "^2.0.9",
-    "@tryforge/forgescript": "^2.2.0",
+    "@tryforge/forge.db": "^2.1.1",
+    "@tryforge/forgescript": "github:tryforge/ForgeScript#main",
     "dotenv": "^16.4.7",
     "sqlite3": "^5.1.7"
   }
