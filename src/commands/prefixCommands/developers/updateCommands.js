@@ -5,6 +5,6 @@ module.exports = {
     code: `
     $onlyForUsers[nananinanão;$botOwnerID]
     $updateCommands
-    Comandos Atualizados :3
+    Comandos Atualizados ":3
     `
 }
