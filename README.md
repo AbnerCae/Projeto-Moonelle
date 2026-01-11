@@ -6,6 +6,6 @@ No momento, não tenho ideias se continuarei com o projeto.
 - Sendo um app brasileiro, ele deve ter:
     - Tendo a linguagem nos comandos em Português do Brasil.
     - Documentações em Português do Brasil.
-    - Funcionalidades que no momento são importantes para mim, pois ele não é focado ao publico em si, e sim para testes.
+    - Funcionalidades que no momento são importantes para mim, pois ele não é focado ao publico em si, e sim para testes pessoais.
 ## Objetivos Atuais:
 > No momento, não terá objetivos sobre a criação deste app.
