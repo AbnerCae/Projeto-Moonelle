@@ -3,40 +3,25 @@ const { ForgeDB } = require("@tryforge/forge.db");
 // const { join } = require('path');
 require('dotenv').config();
 
-const appVars = require("./src/handler/appVars.js");
-// const globalVars = require("./src/handler/globalVars.js");
-// const serverVars = require("./src/handler/serverVars.js");
-userVars = require("./src/handler/userVars.js");
+// VARIAVEIS
+vars = require("./src/handler/vars.js")
 
-// Inicialização do Cliente
+// CLIENTE
 const client = new ForgeClient({
-    intents: [
-        "GuildMessages",
-        "Guilds",
-        "MessageContent"
-    ],
-    events: [
-        "error",
-        "messageCreate"
-    ], 
-    prefixes: [
-        "m.",
-        "M."
-    ], 
-    extensions: [
-        new ForgeDB()
-    ]
+    intents: [ "GuildMessages", "Guilds", "MessageContent" ],
+    events: [ "clientReady", "error", "messageCreate" ], 
+    prefixes: [ "m.", "M." ], 
+    extensions: [ new ForgeDB() ]
 });
 
-// Loader das variaveis na pasta /src/handler/appVars.js
-ForgeDB.variables(appVars) 
-// ForgeDB.variables(globalVars) 
-// ForgeDB.variables(serverVars) 
-ForgeDB.variables(userVars) 
+// CARREGANDO VARIAVEIS
+ForgeDB.variables(vars) //VARIAVEIS DO CLIENTE
    
 // Pasta dos comandos comuns por prefixo
-client.commands.load("./src/commands/prefixCommands")
+client.commands.load("./src/commands/dev")
+client.commands.load("./src/commands/system")
 client.commands.load("./src/commands/common")
+
 // client.applicationCommands.load("./src/commands/slash")
    
 // Token do bot no arquivo .env
