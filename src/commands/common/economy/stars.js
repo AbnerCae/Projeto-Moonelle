@@ -3,6 +3,6 @@ module.exports = {
     type: 'messageCreate',
     code: `
     $reply
-    <@$authorID> você tem x Estrelas.
+    <@$authorID> você tem $getUserVar[stars] Estrelas.
     `
 }

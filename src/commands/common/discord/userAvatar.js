@@ -7,6 +7,7 @@ module.exports = {
     $let[finded;.$findUser[$message;false]]
     $let[findedMember;$findMember[$guildID;$message;true]]
     $if[$get[finded]==.;$if[$message==;;Não consegui encontrar essa pessoa, mas encontrei você!]]
+    $if[$authorID==$findUser[$message[0];false];pq raios você se marcou? mas tá aí sua foto.]
     $let[userAvatar;$userAvatar[$get[id]]]
     $let[guildAvatar;$memberAvatar[$guildID;$get[findedMember]]]
     $if[$get[id]!=$get[findedMember];$let[guildAvatar;$get[userAvatar]]]

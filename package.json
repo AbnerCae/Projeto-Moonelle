@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "@tryforge/forge.db": "^2.1.1",
-    "@tryforge/forgescript": "github:tryforge/ForgeScript#main",
+    "@tryforge/forgescript": "^2.6.0",
     "dotenv": "^16.4.7",
     "sqlite3": "^5.1.7"
   }
