@@ -1,7 +1,7 @@
 module.exports = {
     type: 'clientReady',
     code: `
-    $sendMessage[$getGlobalVar[readyLogChannel];## ✅ $username[$botID] Iniciada!
+    $sendMessage[1497015219816501339;## ✅ $username[$botID] Iniciada!
 > **Servidores:** \`$guildCount\`
 > **Uso de RAM:** \`$ram MB\`
 > **Ping Inicial:** \`$ping ms\`
